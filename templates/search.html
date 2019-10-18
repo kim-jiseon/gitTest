@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/info" method="post">
+    <input type="text" name="name">
+    <input type="submit" value="검색">
+</form>
+    <hr>
+    <h2>{{s['name']}}의 정보</h2>
+    국어: {{s['kor']}}<br>
+    영어: {{s['eng']}}<br>
+    수학: {{s['math']}}<br>
+</body>
+</html>
